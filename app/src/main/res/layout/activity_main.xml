@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+    android:id="@+id/editTextName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/enter_name"
+    android:inputType="textPersonName"
+    android:text="@string/name"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="58dp"
+    tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinnerCenres"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/genres"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName"
+        tools:layout_editor_absoluteX="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ButtonAddArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCenres"
+        tools:layout_editor_absoluteX="6dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

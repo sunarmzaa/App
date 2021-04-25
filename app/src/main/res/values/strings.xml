@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ThaiFoundationApp</string>
+    <string name="enter_name" />
+    <string name="name" />
+    <string name="addartist" />
+
+    <array name="genres">
+        <item>Rock</item>
+        <item>Sufi</item>
+        <item>Pop</item>
+        <item>Folk</item>
+    </array>
+</resources>
